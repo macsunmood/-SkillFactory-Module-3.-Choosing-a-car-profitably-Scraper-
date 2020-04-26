@@ -1,8 +1,8 @@
-## [SkillFactory] Real Data Science. 
+# [SkillFactory] Real Data Science
 ## Module 3. Choosing a car profitably [Scraper]
 
 ### ::: INSTRUCTIONS FOR USE :::
-
+---
 **PerformScraping()** function implements the entire web scraping\
 process filling the `results` dictionary with obtained data.\
 First, it generates the cars models list via `make_models_list()`.\
@@ -16,3 +16,6 @@ The available param arguments are as follows:
         — toggles use of multithreading for faster experience;\
           if neither defined, scraper performs a standart one-threaded\
           sequential processing (in case multithreading goes wrong).
+---
+**The last cell of the Jypiter Notenook provides an option to save the\
+obtained data to a file.**
