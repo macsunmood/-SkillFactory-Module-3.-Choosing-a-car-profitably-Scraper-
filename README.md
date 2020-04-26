@@ -8,10 +8,10 @@ First, it generates the cars models list via `make_models_list()`.\
 Then goes to scraping using `get_cars()`.
 
 The available param arguments are as follows:
-- _**this_day** (default: **False**)_\
+- `this_day` _(default: **False**)_\
         — defines whether the data will be searched for current day only;\
           (this is used in order to make daily updates of the dataset);
-- _**multithreaded** (default: **False**)_\
+- `multithreaded` _(default: **False**)_\
         — toggles use of multithreading for faster experience;\
           if neither defined, scraper performs a standart one-threaded sequential processing\
           (in case multithreading goes wrong).
